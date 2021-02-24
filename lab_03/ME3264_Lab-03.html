@@ -1,0 +1,669 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ME 3264 - Applied Measurements Laboratory &#8212; Applied Measurements</title>
+    
+  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="ME3264-Lab_03" href="README.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Applied Measurements</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Welcome to Applied Measurements
+  </a>
+ </li>
+</ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../lab_01/README.html">
+   ME3264-Lab_01
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../lab_01/ME3264_Lab-01.html">
+     ME 3264 - Applied Measurements Laboratory
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../lab_01/ME3264_Lab-01.html#lab-1-heat-engine">
+     Lab #1 - Heat Engine
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../lab_02/README.html">
+   ME3264-Lab-02
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../lab_02/ME3264_Lab-02.html">
+     ME 3264 - Applied Measurements Laboratory
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../lab_02/ME3264_Lab-02.html#lab-2-heat-pipe">
+     Lab #2 - Heat Pipe
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 current active collapsible-parent">
+  <a class="reference internal" href="README.html">
+   ME3264-Lab_03
+  </a>
+  <ul class="current collapse-ul">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     ME 3264 - Applied Measurements Laboratory
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="#lab-3a-fluid-flow-measurement">
+     Lab #3a - Fluid Flow Measurement
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/lab_03/ME3264_Lab-03.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/cooperrc/applied_measurements"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/cooperrc/applied_measurements/issues/new?title=Issue%20on%20page%20%2Flab_03/ME3264_Lab-03.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/cooperrc/applied_measurements/master?urlpath=tree/lab_03/ME3264_Lab-03.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        <a class="jupyterhub-button" href="https://ugmelab.uconn.edu/hub/user-redirect/git-pull?repo=https://github.com/cooperrc/applied_measurements&urlpath=tree/applied_measurements/lab_03/ME3264_Lab-03.ipynb&branch=master"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch JupyterHub" data-toggle="tooltip"
+                data-placement="left"><img class="jupyterhub-button-logo"
+                    src="../_static/images/logo_jupyterhub.svg"
+                    alt="Interact on JupyterHub">JupyterHub</button></a>
+        
+        
+        
+    </div>
+</div>
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   ME 3264 - Applied Measurements Laboratory
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#lab-3a-fluid-flow-measurement">
+   Lab #3a - Fluid Flow Measurement
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#objective">
+     Objective
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#background">
+     Background
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#flow-measurement">
+       Flow Measurement
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#volumetric-technique">
+         Volumetric technique
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#rotameter">
+         Rotameter
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#venturi-meter">
+         Venturi meter
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#turbine-flowmeter">
+         Turbine flowmeter
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#note-on-flow-meter-error">
+         Note on flow meter error
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#flowrate-meter-caliberation-example-venturi-meter">
+       Flowrate Meter Caliberation Example - Venturi meter
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#problem-1">
+         Problem 1
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#check-your-work">
+         Check your work
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#procedure">
+     Procedure
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#notes-on-error-propagation-and-uncertainties">
+     Notes on error propagation and uncertainties
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#references">
+     References
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="s1">&#39;font.size&#39;</span><span class="p">:</span> <span class="mi">14</span><span class="p">})</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;lines.linewidth&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="n">pi</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="me-3264-applied-measurements-laboratory">
+<h1>ME 3264 - Applied Measurements Laboratory<a class="headerlink" href="#me-3264-applied-measurements-laboratory" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="lab-3a-fluid-flow-measurement">
+<h1>Lab #3a - Fluid Flow Measurement<a class="headerlink" href="#lab-3a-fluid-flow-measurement" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="objective">
+<h2>Objective<a class="headerlink" href="#objective" title="Permalink to this headline">¶</a></h2>
+<p>The objectives of this laboratory are :</p>
+<ol class="simple">
+<li><p>To use different fluid flow measurement devices - venturi meter, rotameter, turbine meter</p></li>
+<li><p>To understand the advantages and disadvantages of of different fluid flow measurement devices</p></li>
+</ol>
+</div>
+<div class="section" id="background">
+<h2>Background<a class="headerlink" href="#background" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="flow-measurement">
+<h3>Flow Measurement<a class="headerlink" href="#flow-measurement" title="Permalink to this headline">¶</a></h3>
+<p>Flow measurement is the quantification of bulk fluid movement. Accurate measurement of the flow rate of liquids and gases is an essential requirement for maintaining the quality of industrial processes. In fact, most of the industrial control loops control the flow rates of incoming liquids or gases in order to achieve the control objectives.</p>
+<p>Flow can be measured in a variety of ways depending upon the requirements. It could be volumetric or mass flow rate, the medium could be gas or liquid, the measurement could be intrusive or non-intrusive, and so on. As a result, there are different types of flow measuring techniques that are used in industries. In this lab, the focus is on four flow measurement techniques - volumetric technique(Fig. 1a), rotameter (Fig. 1b), Venturi meter (Fig. 2a), and turbine meter (Fig. 2b).</p>
+<p><img alt="figure 1" src="../_images/flowmeters_1.png" /></p>
+<center>Figure 1:  (a) volumetric technique (b)Rotameter  </center>
+<!-- <center><img src="./flowmeters_1.png" alt="Drawing" style="width: 600px;"/> </center> -->
+<p><img alt="figure 2" src="../_images/flowmeters_2.png" /></p>
+<center>Figure 2:  (a) Venturi meter (b)Turbine meter    </center>
+<!-- <center><img src="./flowmeters_2.png" alt="Drawing" style="width: 600px;"/> </center> -->
+<!-- <center>Figure 2:  (a) Venturi meter (b)Turbine meter    </center> --><div class="section" id="volumetric-technique">
+<h4>Volumetric technique<a class="headerlink" href="#volumetric-technique" title="Permalink to this headline">¶</a></h4>
+<p>The Hydraulic Bench provides a reservoir with sloping sides connected to
+an external sight tube with 5-litre markings to
+measure the contents of this reservoir (Fig. 1a). To measure volumetric
+flow rate (<span class="math notranslate nohighlight">\(Q\)</span>), the outlet in the base of the reservoir is closed by
+the use of a drain plug column, and a stopwatch is used to measure
+<span class="math notranslate nohighlight">\(\Delta t\)</span>, the time required for the water level to rise between chosen
+graduations. The outlet is then opened to return the contents of the
+reservoir to the sump.  Volumetric flowrate <span class="math notranslate nohighlight">\(Q\)</span> is obtained as,</p>
+<p><span class="math notranslate nohighlight">\(\small  Q = \frac{V}{\Delta t}\)</span>  (1)</p>
+<p>where <span class="math notranslate nohighlight">\(V\)</span> is the volume of water obtained from the water level of the reservoir.</p>
+</div>
+<div class="section" id="rotameter">
+<h4>Rotameter<a class="headerlink" href="#rotameter" title="Permalink to this headline">¶</a></h4>
+<p>A rotameter is a variable-area volumetric flow measurement device that consists of a graduated vertical tapered tube with the fluid flow moving upward through the tube, past the float, as shown in Fig. 1b. Rotameter’s accuracy is ±3% of full-scale reading.</p>
+<p>Rotameter uses the principle of force balance on the float. The float remains stationary when the weight of the float is balanced by the buoyancy and pressure drag force. When the float is in a particular position for a flow rate, the differential pressure varies with the square of flow rate (from Bernoulli’s principle). Therefore, to keep differential pressure constant for some other flow rate, the annular area in between the float and vertical tube must change. Rotameters are designed to have a linear relationship between the position of the float (<span class="math notranslate nohighlight">\(x\)</span>) and flow rate by making the area of cross-section of the tube vary linearly with the vertical height.</p>
+<p><span class="math notranslate nohighlight">\(\small  Q = K_1 + K_2 x\)</span>  (2)</p>
+<p>where constants <span class="math notranslate nohighlight">\(K_1\)</span> and <span class="math notranslate nohighlight">\(K_2\)</span> are obtained from the calibration curve of the device.</p>
+</div>
+<div class="section" id="venturi-meter">
+<h4>Venturi meter<a class="headerlink" href="#venturi-meter" title="Permalink to this headline">¶</a></h4>
+<p>A venturi meter (Fig. 2a) is an obstructive type flowmeter in which the fluid flowing through a pipe is led
+through a contraction section to a throat having a smaller cross-sectional area than the pipe,
+resulting in a pressure variation along the meter. The differential pressure output is then calibrated in terms of volume flow rate based on Bernoulli’s equation. Applying Bernoulli’s principle and continuity equation between flowmeter inlet (point 1) and throat section (point 2) gives,</p>
+<p><span class="math notranslate nohighlight">\(\small Q_{theory}= \frac{A_2}{\sqrt{[1-(\frac{A_2}{A_1})^2]}} {\sqrt{\frac{2g(p_1 - p_2)}{\rho}}}\)</span>   (3)</p>
+<p>where <span class="math notranslate nohighlight">\(Q_{theory}\)</span> is the theoretical volume flowrate, <span class="math notranslate nohighlight">\(A\)</span> denotes area, <span class="math notranslate nohighlight">\(p\)</span> is the pressure, <span class="math notranslate nohighlight">\(\rho\)</span> is the fluid density and <span class="math notranslate nohighlight">\(g\)</span> is the acceleration due to gravity.</p>
+<p>Bernoulli’s principle operates under the assumption that viscous effects are negligible. For venturi meters, the discharge coefficient <span class="math notranslate nohighlight">\(C_d\)</span>  is used to account for viscous effects in the flow and to calculate actual flowrate <span class="math notranslate nohighlight">\(Q\)</span>,</p>
+<p><span class="math notranslate nohighlight">\(\small Q = C_d Q_{theory}\)</span>  (4)</p>
+<p>For a given fluid and venturi-meter, quantities - <span class="math notranslate nohighlight">\(\rho\)</span>,<span class="math notranslate nohighlight">\(g\)</span>, <span class="math notranslate nohighlight">\(A_1\)</span>,<span class="math notranslate nohighlight">\(A_2\)</span>,<span class="math notranslate nohighlight">\(C_d\)</span>, are constants. Then the Eqn. 3 and Eqn.4 can be combined to obtain simplified caliberation equation,</p>
+<p><span class="math notranslate nohighlight">\(\small Q = C \sqrt {\Delta p}\)</span>  (5)</p>
+<p>where, C is is caliberation constant which depends on quantities - <span class="math notranslate nohighlight">\(\rho\)</span>,<span class="math notranslate nohighlight">\(g\)</span>, <span class="math notranslate nohighlight">\(A_1\)</span>,<span class="math notranslate nohighlight">\(A_2\)</span>,<span class="math notranslate nohighlight">\(C_d\)</span>.</p>
+<p>Note that pressure in Eqn. 3 &amp; 5 can be expressed as absolute pressure, gauge pressure, or mm of a water column as long as the user is consistent and use the same pressure definition at all locations.</p>
+</div>
+<div class="section" id="turbine-flowmeter">
+<h4>Turbine flowmeter<a class="headerlink" href="#turbine-flowmeter" title="Permalink to this headline">¶</a></h4>
+<p>The turbine flowmeters (Fig. 2b) are inferential type flowmeters that operate on the principle of transformation of linear momentum of the fluid into angular momentum of the turbine blades. This angular velocity is picked
+up magnetically through the hall sensor and calibrated to provide a very accurate measure of the flow rate through the meter.</p>
+<p><span class="math notranslate nohighlight">\(\small Q = K f\)</span>  (6)</p>
+<p>where <span class="math notranslate nohighlight">\(K\)</span> is factory provided calibration constant, also known as K-factor and <span class="math notranslate nohighlight">\(f\)</span> is the frequency of the electromagnetic signal measured by the hall sensor. The typical accuracy of turbine flowmeters is ±3% of the reading.</p>
+<p>For more details on the flow equations and derivations of various flowmeters refer to [3,4]</p>
+</div>
+<div class="section" id="note-on-flow-meter-error">
+<h4>Note on flow meter error<a class="headerlink" href="#note-on-flow-meter-error" title="Permalink to this headline">¶</a></h4>
+<p>In flow measurement, flow meter error is typically reported by a percentage indicating the non-linearity of the device. This can be expressed as either a ± percentage based on either the full range capacity of the device or as a percentage of the actual indicated flow. In practice, the flow meter error is a combination of repeatability, accuracy, and the uncertainty of the reference calibration [5,6]</p>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">vrate</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">logspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">error</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="mf">0.03</span><span class="o">*</span><span class="n">vrate</span><span class="p">)</span><span class="o">/</span><span class="n">vrate</span><span class="o">*</span><span class="mi">100</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">semilogx</span><span class="p">(</span><span class="n">vrate</span><span class="p">,</span> <span class="n">error</span><span class="p">,</span> <span class="s1">&#39;r-&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">semilogx</span><span class="p">(</span><span class="n">vrate</span><span class="p">,</span> <span class="o">-</span><span class="n">error</span><span class="p">,</span> <span class="s1">&#39;r-&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">semilogx</span><span class="p">(</span><span class="n">vrate</span><span class="p">,</span> <span class="mi">3</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">vrate</span><span class="o">.</span><span class="n">shape</span><span class="p">),</span> <span class="s1">&#39;k--&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">semilogx</span><span class="p">(</span><span class="n">vrate</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">vrate</span><span class="o">.</span><span class="n">shape</span><span class="p">),</span> <span class="s1">&#39;k--&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">% o</span><span class="s1">f meter range&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;measurement error (%)&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Error in flowmeter reading for +/-3</span><span class="si">% f</span><span class="s1">ull-scale reading&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/ME3264_Lab-03_4_0.png" src="../_images/ME3264_Lab-03_4_0.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="flowrate-meter-caliberation-example-venturi-meter">
+<h3>Flowrate Meter Caliberation Example - Venturi meter<a class="headerlink" href="#flowrate-meter-caliberation-example-venturi-meter" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="problem-1">
+<h4>Problem 1<a class="headerlink" href="#problem-1" title="Permalink to this headline">¶</a></h4>
+<p>Let’s consider a pipe installed with venturi meter to measure the volume flowrate through the pipe. Following table consists of actual flowrate <span class="math notranslate nohighlight">\(Q\)</span> (measured by some reference technique), and pressure drop <span class="math notranslate nohighlight">\(\Delta p\)</span>, recorded by venturi meter. Obtain the caliberation curve coeffcients of the venturi meter using linear regression.</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p><span class="math notranslate nohighlight">\(Q\)</span>, LPM</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(\Delta p\)</span>, (mm of water)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>11.37</p></td>
+<td><p>55</p></td>
+</tr>
+<tr class="row-odd"><td><p>9.84</p></td>
+<td><p>44</p></td>
+</tr>
+<tr class="row-even"><td><p>9.00</p></td>
+<td><p>34</p></td>
+</tr>
+<tr class="row-odd"><td><p>8.10</p></td>
+<td><p>28</p></td>
+</tr>
+<tr class="row-even"><td><p>7.00</p></td>
+<td><p>22</p></td>
+</tr>
+<tr class="row-odd"><td><p>6.00</p></td>
+<td><p>18</p></td>
+</tr>
+<tr class="row-even"><td><p>4.34</p></td>
+<td><p>8</p></td>
+</tr>
+</tbody>
+</table>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">scipy.optimize</span> <span class="kn">import</span> <span class="n">curve_fit</span>
+
+
+<span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">k</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;fits the linear equation y = kx</span>
+<span class="sd">    This equation can be replaced by polynomial or exponential </span>
+<span class="sd">    as per the fitting goals of the problem&#39;&#39;&#39;</span>
+    <span class="k">return</span> <span class="n">k</span><span class="o">*</span><span class="n">x</span>
+
+<span class="n">Q</span> <span class="o">=</span> <span class="p">[</span><span class="mf">11.37</span><span class="p">,</span><span class="mf">9.84</span><span class="p">,</span><span class="mf">9.00</span><span class="p">,</span><span class="mf">8.10</span><span class="p">,</span><span class="mf">7.00</span><span class="p">,</span><span class="mf">6.00</span><span class="p">,</span><span class="mf">4.34</span><span class="p">]</span>   <span class="c1"># LPM</span>
+<span class="n">dp</span> <span class="o">=</span> <span class="p">[</span><span class="mi">55</span><span class="p">,</span><span class="mi">44</span><span class="p">,</span><span class="mi">34</span><span class="p">,</span><span class="mi">28</span><span class="p">,</span><span class="mi">22</span><span class="p">,</span><span class="mi">18</span><span class="p">,</span><span class="mi">8</span><span class="p">]</span>                  <span class="c1"># mm of water</span>
+
+<span class="n">k</span><span class="p">,</span><span class="n">pcov</span><span class="o">=</span><span class="n">curve_fit</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">dp</span><span class="p">),</span> <span class="n">Q</span><span class="p">)</span>  <span class="c1">#we are trying to fit Q = k*(dp)^0.5</span>
+<span class="n">k_error</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">pcov</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Caliberation equation for venturi meter is Q = </span><span class="si">%1.3f</span><span class="s2"> </span><span class="se">\u0394</span><span class="s2">p^0.5 </span><span class="se">\n</span><span class="s2"> &quot;</span><span class="o">%</span><span class="p">(</span><span class="n">k</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Caliberation coefficent   </span><span class="si">%1.3f</span><span class="s2"> +/- </span><span class="si">%1.3f</span><span class="s2"> </span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">%</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">k_error</span><span class="p">))</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">dp</span><span class="p">),</span><span class="n">Q</span><span class="p">,</span><span class="s1">&#39;o&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;experiment&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">dp</span><span class="p">),</span><span class="n">func</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">dp</span><span class="p">),</span><span class="n">k</span><span class="p">),</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;model&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;$\sqrt{\Delta p}$, (mm of water)&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Q (LPM)&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Caliberation equation for venturi meter is Q = 1.510 Δp^0.5 
+ 
+Caliberation coefficent   1.510 +/- 0.015 
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Text(0, 0.5, &#39;Q (LPM)&#39;)
+</pre></div>
+</div>
+<img alt="../_images/ME3264_Lab-03_7_2.png" src="../_images/ME3264_Lab-03_7_2.png" />
+</div>
+</div>
+</div>
+<div class="section" id="check-your-work">
+<h4>Check your work<a class="headerlink" href="#check-your-work" title="Permalink to this headline">¶</a></h4>
+<p>In the above example, fit the data to power function of the form</p>
+<p><span class="math notranslate nohighlight">\(\small Q = a (\Delta p)^b\)</span></p>
+<p>what is the value of a and b? Do you think power function is better fit than the linear equation fit for the venturi-meter data?</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## # enter your work here - Uncomment the following lines of code and make necessary changes</span>
+
+<span class="c1"># def power_func(x,a,b):</span>
+<span class="c1">#     &#39;&#39;&#39;fits the linear equation y = kx</span>
+<span class="c1">#     This equation can be replaced by polynomial or exponential </span>
+<span class="c1">#     as per the fitting goals of the problem&#39;&#39;&#39;</span>
+<span class="c1">#     return ??</span>
+
+<span class="c1"># Q = np.array([11.37,9.84,9.00,8.10,7.00,6.00,4.34])   # LPM</span>
+<span class="c1"># dp = np.array([55,44,34,28,22,18,8])                  # mm of water</span>
+
+<span class="c1"># k,pcov=??</span>
+<span class="c1"># a = k[0]</span>
+<span class="c1"># b = k[1]</span>
+
+<span class="c1"># print(&quot;Caliberation equation for venturi meter is Q = %1.3f \u0394p^%1.3f &quot;%(a,b))</span>
+
+<span class="c1"># plt.plot(dp,Q,&#39;o&#39;,label=&#39;experiment&#39;)</span>
+<span class="c1"># plt.plot(dp,power_func(dp,a,b),label=&#39;model&#39;)</span>
+<span class="c1"># plt.legend()</span>
+<span class="c1"># plt.xlabel(r&#39;$\sqrt{\Delta p}$, (mm of water)&#39;)</span>
+<span class="c1"># plt.ylabel(&#39;Q (LPM)&#39;)</span>
+
+
+<span class="kn">import</span> <span class="nn">check_lab03</span> <span class="k">as</span> <span class="nn">p</span>
+<span class="n">p</span><span class="o">.</span><span class="n">check_p01</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">&lt;</span><span class="n">ipython</span><span class="o">-</span><span class="nb">input</span><span class="o">-</span><span class="mi">4</span><span class="o">-</span><span class="mi">4</span><span class="n">db0d5ae2610</span><span class="o">&gt;</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">     </span><span class="mi">24</span> 
+<span class="g g-Whitespace">     </span><span class="mi">25</span> <span class="kn">import</span> <span class="nn">check_lab03</span> <span class="k">as</span> <span class="nn">p</span>
+<span class="ne">---&gt; </span><span class="mi">26</span> <span class="n">p</span><span class="o">.</span><span class="n">check_p01</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
+
+<span class="ne">NameError</span>: name &#39;a&#39; is not defined
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="procedure">
+<h2>Procedure<a class="headerlink" href="#procedure" title="Permalink to this headline">¶</a></h2>
+<p>The procedure and details of the experiment are included in a lab-handout [1].</p>
+<p><a class="reference external" href="https://drive.google.com/file/d/1H4aeHknTJzxyPItLyjnBkoUFeRymS8kI/view?usp=sharing">ME3264_Lab_3a_Fluid_Flow_Measurement.pdf</a></p>
+</div>
+<div class="section" id="notes-on-error-propagation-and-uncertainties">
+<h2>Notes on error propagation and uncertainties<a class="headerlink" href="#notes-on-error-propagation-and-uncertainties" title="Permalink to this headline">¶</a></h2>
+<p>For this lab, you should prepare calibration equations for each device. Also include an estimate of the uncertainty
+for calibration coefficients (i.e., the coefficients of each equation).</p>
+<p>You should include a comparison of the relative coefficient uncertainty between devices, whether a linear regression is an appropriate technique, and the relative appropriateness of using a “universal” calibration for any one type of device (e.g., should you use the same calibration equation for two Venturi meters with the same nominal dimensions).</p>
+</div>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p><a class="reference external" href="https://drive.google.com/file/d/1H4aeHknTJzxyPItLyjnBkoUFeRymS8kI/view?usp=sharing">ME3264_Lab_3a_Fluid_Flow_Measurement.pdf</a></p></li>
+<li><p><a class="reference external" href="https://cooperrc.github.io/applied_measurements/lab_01/ME3264_Lab-01.html#lab-1-heat-engine">Notes on error propagation, ME 3264- Lab 1 - Heat Engine Notebook </a></p></li>
+<li><p>B.R. Munson, D.F. Young, T.H. Okiishi, and W.W. Huebsch, Fundamentals of Fluid Mechanics, Seventh
+Edition, Chapter 8</p></li>
+<li><p><a class="reference external" href="https://www.idc-online.com/technical_references/pdfs/instrumentation/Industrial_Instrumentation%20-%20Flow.pdf">IDC instrumentation manual</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Flow_meter_error">Flow meter error</a></p></li>
+<li><p><a class="reference external" href="https://www.flowmeters.co.uk/liquid-flow-meter-performance-specification-glossary/">Liquid Flow Meter Performance &amp; Specification: Glossary</a></p></li>
+</ol>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./lab_03"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="README.html" title="previous page">ME3264-Lab_03</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Jupyter Book community<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>
