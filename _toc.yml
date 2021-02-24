@@ -8,3 +8,6 @@
 - file: lab_02/README
   sections:
     - file: lab_02/ME3264_Lab-02
+- file: lab_03/README
+  sections:
+    - file: lab_03/ME3264_Lab-03
