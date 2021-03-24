@@ -19,40 +19,36 @@ nbclient.exceptions.CellExecutionError: An error occurred while executing the fo
 ------------------
 ## # enter your work here - Uncomment the following lines of code and make necessary changes
 
-# def power_func(x,a,b):
-#     '''fits the linear equation y = kx
-#     This equation can be replaced by polynomial or exponential 
-#     as per the fitting goals of the problem'''
-#     return ??
+# def qmax (Cmin, Thi,Tci):
+#     qmax = 
+#     return qmax 
 
-# Q = np.array([11.37,9.84,9.00,8.10,7.00,6.00,4.34])   # LPM
-# dp = np.array([55,44,34,28,22,18,8])                  # mm of water
+# qmax = qmax (Cmin, Thi,Tci)
 
-# k,pcov=??
-# a = k[0]
-# b = k[1]
+# q =   # Hint :use Eqn 8
 
-# print("Caliberation equation for venturi meter is Q = %1.3f \u0394p^%1.3f "%(a,b))
+# Hint :use Eqn 6 and 7
+# Tho = 
+# Tco = 
 
-# plt.plot(dp,Q,'o',label='experiment')
-# plt.plot(dp,power_func(dp,a,b),label='model')
-# plt.legend()
-# plt.xlabel(r'$\sqrt{\Delta p}$, (mm of water)')
-# plt.ylabel('Q (LPM)')
+print("Total heat transfer from hot to cold fluid = %1.3f kW" %(q/1000))
+#p.check_p02a(q/1000)
 
+print("Gas outlet temprature = %1.3f" %Tho)
+print("Water outlet temprature = %1.3f" %Tco)
 
-import check_lab03 as p
-p.check_p01(a,b)
-
+#p.check_p02b(Tho, Tco)
 ------------------
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mNameError[0m                                 Traceback (most recent call last)
-[0;32m<ipython-input-4-4db0d5ae2610>[0m in [0;36m<module>[0;34m[0m
-[1;32m     24[0m [0;34m[0m[0m
-[1;32m     25[0m [0;32mimport[0m [0mcheck_lab03[0m [0;32mas[0m [0mp[0m[0;34m[0m[0;34m[0m[0m
-[0;32m---> 26[0;31m [0mp[0m[0;34m.[0m[0mcheck_p01[0m[0;34m([0m[0ma[0m[0;34m,[0m[0mb[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0m
-[0;31mNameError[0m: name 'a' is not defined
-NameError: name 'a' is not defined
+[0;32m<ipython-input-3-36171529d6f0>[0m in [0;36m<module>[0;34m[0m
+[1;32m     13[0m [0;31m# Tco =[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     14[0m [0;34m[0m[0m
+[0;32m---> 15[0;31m [0mprint[0m[0;34m([0m[0;34m"Total heat transfer from hot to cold fluid = %1.3f kW"[0m [0;34m%[0m[0;34m([0m[0mq[0m[0;34m/[0m[0;36m1000[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     16[0m [0;31m#p.check_p02a(q/1000)[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     17[0m [0;34m[0m[0m
+
+[0;31mNameError[0m: name 'q' is not defined
+NameError: name 'q' is not defined
 

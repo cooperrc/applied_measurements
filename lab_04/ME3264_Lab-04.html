@@ -1,0 +1,672 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ME 3264 - Applied Measurements Laboratory &#8212; Applied Measurements</title>
+    
+  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.c441f2ba0852f4cabcb80105e3a46ae6.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="ME3264-Lab_04" href="README.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Applied Measurements</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Welcome to Applied Measurements
+  </a>
+ </li>
+</ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../lab_01/README.html">
+   ME3264-Lab_01
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../lab_01/ME3264_Lab-01.html">
+     ME 3264 - Applied Measurements Laboratory
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../lab_01/ME3264_Lab-01.html#lab-1-heat-engine">
+     Lab #1 - Heat Engine
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../lab_02/README.html">
+   ME3264-Lab-02
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../lab_02/ME3264_Lab-02.html">
+     ME 3264 - Applied Measurements Laboratory
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../lab_02/ME3264_Lab-02.html#lab-2-heat-pipe">
+     Lab #2 - Heat Pipe
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../lab_03/README.html">
+   ME3264-Lab_03
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../lab_03/ME3264_Lab-03.html">
+     ME 3264 - Applied Measurements Laboratory
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../lab_03/ME3264_Lab-03.html#lab-3a-fluid-flow-measurement">
+     Lab #3a - Fluid Flow Measurement
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 current active collapsible-parent">
+  <a class="reference internal" href="README.html">
+   ME3264-Lab_04
+  </a>
+  <ul class="current collapse-ul">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     ME 3264 - Applied Measurements Laboratory
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="#lab-4-cross-flow-heat-exchanger">
+     Lab #4 - Cross-Flow Heat Exchanger
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/lab_04/ME3264_Lab-04.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/cooperrc/applied_measurements"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/cooperrc/applied_measurements/issues/new?title=Issue%20on%20page%20%2Flab_04/ME3264_Lab-04.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/cooperrc/applied_measurements/master?urlpath=tree/lab_04/ME3264_Lab-04.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        <a class="jupyterhub-button" href="https://ugmelab.uconn.edu/hub/user-redirect/git-pull?repo=https://github.com/cooperrc/applied_measurements&urlpath=tree/applied_measurements/lab_04/ME3264_Lab-04.ipynb&branch=master"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch JupyterHub" data-toggle="tooltip"
+                data-placement="left"><img class="jupyterhub-button-logo"
+                    src="../_static/images/logo_jupyterhub.svg"
+                    alt="Interact on JupyterHub">JupyterHub</button></a>
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   ME 3264 - Applied Measurements Laboratory
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#lab-4-cross-flow-heat-exchanger">
+   Lab #4 - Cross-Flow Heat Exchanger
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#objective">
+     Objective
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#background">
+     Background
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#heat-exchanger-analysis-use-of-the-log-mean-temperature-difference-lmtd">
+       Heat Exchanger Analysis: Use of the Log Mean Temperature Difference (LMTD)
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#heat-exchanger-analysis-the-effectiveness-number-of-transfer-units-ntu-method">
+       Heat Exchanger Analysis: The Effectiveness–
+       <em>
+        Number of Transfer Units
+       </em>
+       (NTU) Method
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#problem-1">
+       Problem 1
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#check-your-work">
+       Check Your Work
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#problem-2">
+         Problem 2
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#problem-3">
+         Problem 3
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#procedure">
+     Procedure
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#notes-on-error-propagation-and-uncertainties">
+     Notes on error propagation and uncertainties
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#references">
+     References
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="kn">import</span> <span class="nn">check_lab04</span> <span class="k">as</span> <span class="nn">p</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="s1">&#39;font.size&#39;</span><span class="p">:</span> <span class="mi">14</span><span class="p">})</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;lines.linewidth&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="n">pi</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="me-3264-applied-measurements-laboratory">
+<h1>ME 3264 - Applied Measurements Laboratory<a class="headerlink" href="#me-3264-applied-measurements-laboratory" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="lab-4-cross-flow-heat-exchanger">
+<h1>Lab #4 - Cross-Flow Heat Exchanger<a class="headerlink" href="#lab-4-cross-flow-heat-exchanger" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="objective">
+<h2>Objective<a class="headerlink" href="#objective" title="Permalink to this headline">¶</a></h2>
+<p>The objectives of this laboratory are :</p>
+<ol class="simple">
+<li><p>Understand and practice basic heat exchanger analysis methods.</p></li>
+<li><p>Measure the hot and cold fluid temperatures and mass flow rates.</p></li>
+<li><p>Calculate the experimental heat exchanger effectiveness and other performance metrics and compare to the predicted effectiveness obtained by the NTU method.</p></li>
+<li><p>Learn how to apply this analysis to determine cross-flow heat exchanger performance.</p></li>
+</ol>
+</div>
+<div class="section" id="background">
+<h2>Background<a class="headerlink" href="#background" title="Permalink to this headline">¶</a></h2>
+<p>The process of heat exchange between two fluids that are at different temperatures and separated by a solid wall occurs in many engineering applications. The device used to implement this exchange is termed a heat exchanger, and specific applications may be found in space heating and air-conditioning, power production, waste heat recovery, and chemical processing [1]</p>
+<p>Heat exchangers are typically classified according to flow arrangement and type of construction. In this laboratory, you will
+study a cross-flow heat exchanger such as that used in the radiator of a car [Fig (1)], in which the hot liquid is cooled down by the airflow on the surface of the radiator. In this configuration, heat transfer occurs between a flow of hot water and a flow of cool air circulating in an orthogonal direction with respect to each other, so that hot flow and cold flow cross each other (crossed-flow)[2].</p>
+<p><img alt="Car radiator drawing" src="../_images/car_radiator.jpg" />“</p>
+<center>Figure 1: Car cooling system and Radiator  </center><div class="section" id="heat-exchanger-analysis-use-of-the-log-mean-temperature-difference-lmtd">
+<h3>Heat Exchanger Analysis: Use of the Log Mean Temperature Difference (LMTD)<a class="headerlink" href="#heat-exchanger-analysis-use-of-the-log-mean-temperature-difference-lmtd" title="Permalink to this headline">¶</a></h3>
+<p>To design or to predict the performance of a heat exchanger, it is essential to relate the total heat transfer rate (<span class="math notranslate nohighlight">\(q\)</span>) to quantities such as the inlet and outlet fluid temperatures, the overall heat transfer coefficient, and the total surface area for heat transfer. This is achieved by applying <a class="reference external" href="https://en.wikipedia.org/wiki/Newton%27s_law_of_cooling">Newton’s law of cooling</a> to the heat exchanger with the overall heat transfer coefficient <span class="math notranslate nohighlight">\(U\)</span> and appropriate temperature difference that drives the heat transfer (<span class="math notranslate nohighlight">\(T_{lm}\)</span>), and represented by Eqn(1).</p>
+<p><span class="math notranslate nohighlight">\(\small q = UA\Delta T_{lm}\)</span>  (1)</p>
+<p>where <span class="math notranslate nohighlight">\(T_{lm}\)</span> is also known as Log Mean Temperature Difference (LMTD) and given by Eqn(2)</p>
+<p><span class="math notranslate nohighlight">\( \Delta T_{lm} = \large \frac{\Delta T_2 - \Delta T_1}{ln (\frac{\Delta T_2}{\Delta T_1})} = \frac{\Delta T_1 - \Delta T_2}{ln (\frac{\Delta T_1}{\Delta T_2})}\)</span> (2)</p>
+<p>where <span class="math notranslate nohighlight">\(\Delta T_1\)</span> and <span class="math notranslate nohighlight">\(\Delta T_2\)</span> depend on the flow arrangement and inlet and outlet temperatures of the hot and cold fluid streams. Subscripts <span class="math notranslate nohighlight">\(h\)</span> and <span class="math notranslate nohighlight">\(c\)</span> stand for hot and cold fluid, <span class="math notranslate nohighlight">\(i\)</span> and <span class="math notranslate nohighlight">\(o\)</span> stand for inlet and outlet.</p>
+<ul class="simple">
+<li><p>For paraller flow heat exchanger:  <span class="math notranslate nohighlight">\( \Delta T_1 = T_{h,i} -  T_{c,i} \)</span>, <span class="math notranslate nohighlight">\( \Delta T_2 = T_{h,o} -  T_{c,o}\)</span> (3)</p></li>
+<li><p>For counterflow heat exchanger (<span class="math notranslate nohighlight">\(\Delta T_{lm,CF}\)</span>):  <span class="math notranslate nohighlight">\( \Delta T_1 = T_{h,i} -  T_{c,o} \)</span>, <span class="math notranslate nohighlight">\( \Delta T_2 = T_{h,o} -  T_{c,i}\)</span> (4)</p></li>
+<li><p>For cross-flow heat exchanger: <span class="math notranslate nohighlight">\( T_{lm} = F \Delta T_{lm,CF}\)</span> (5)</p></li>
+</ul>
+<p><span class="math notranslate nohighlight">\(F\)</span> is the correction factor and <span class="math notranslate nohighlight">\( \Delta T_{lm, CF}\)</span> is the LMTD that would be computed under the assumption of counter-flow conditions. The correction factor depends on the geometry of the heat exchanger and the inlet and outlet temperatures of the hot and cold fluid stream. Algebraic expressions for the correction factor <span class="math notranslate nohighlight">\(F\)</span> have been developed for various shell-and-tube and cross-flow heat exchanger configurations, and the results may be represented graphically. Selected results are shown in Chapter 11S.1 of [1], [3] for common cross-flow heat exchanger configurations.</p>
+<p>The overall thermal resistance of the heat exchanger, <span class="math notranslate nohighlight">\(R\)</span>, is proportional to <span class="math notranslate nohighlight">\(\Delta T_{lm}\)</span>defined as:</p>
+<p><span class="math notranslate nohighlight">\(R = \large \frac{1}{UA} = \frac {\Delta T_{lm}}{q_c}\)</span></p>
+</div>
+<div class="section" id="heat-exchanger-analysis-the-effectiveness-number-of-transfer-units-ntu-method">
+<h3>Heat Exchanger Analysis: The Effectiveness– <em>Number of Transfer Units</em> (NTU) Method<a class="headerlink" href="#heat-exchanger-analysis-the-effectiveness-number-of-transfer-units-ntu-method" title="Permalink to this headline">¶</a></h3>
+<p>It is a simple matter to use the log mean temperature difference (LMTD) method of heat exchanger analysis when the fluid inlet temperatures are known and the outlet temperatures are specified or readily determined from the energy balance expressions Eqn(6) and Eqn(7):</p>
+<p><span class="math notranslate nohighlight">\( q = q_h = \dot{m}_h c_{p,h}(T_{h,i} -  T_{h,o} )\)</span> (6)</p>
+<p>OR</p>
+<p><span class="math notranslate nohighlight">\( q = q_c = \dot{m}_c c_{p,c}(T_{c,o} -  T_{c,i} )\)</span> (7)</p>
+<p>The value of <span class="math notranslate nohighlight">\(T_{lm}\)</span> for the exchanger may then be determined from Eqn(1). Note that, here we are assuming that there is no heat loss to the ambient. Hence, <span class="math notranslate nohighlight">\(q = q_h =q_c\)</span>. You have to assess the validity of this assumption in the experiment when using these equations.</p>
+<p>However, if only the inlet temperatures are known, the use of the LMTD method requires a cumbersome iterative procedure. It is, therefore, preferable to employ an alternative approach termed the number of transfer units (NTU) or effectiveness method. The effectiveness, <span class="math notranslate nohighlight">\(\epsilon\)</span>, is the ratio of the actual heat transfer rate for a heat exchanger to the maximum possible heat transfer rate</p>
+<p><span class="math notranslate nohighlight">\(\large \epsilon = \frac{q}{q_{max}}\)</span> (8)</p>
+<p>where,</p>
+<p><span class="math notranslate nohighlight">\(q_{max} = C_{min}(T_{h,i} -  T_{c,i} )\)</span>  (9)</p>
+<p><span class="math notranslate nohighlight">\(C_{min} =  (\dot{m} c_{p})_{min}\)</span>  (10)</p>
+<p>and NTU refers to is the number of transfer units defined as:</p>
+<p><span class="math notranslate nohighlight">\( NTU = \large \frac{UA}{C_{min} } = \frac{1}{R C_{min} }\)</span>  (10)</p>
+<p>For any heat exchanger it can be shown that <span class="math notranslate nohighlight">\(\epsilon = f (NTU, \frac{C_{min}}{C_{max}})\)</span>. Equations have been developed for the calculation of the effectiveness of various types of heat exchangers [1,2].</p>
+</div>
+<div class="section" id="problem-1">
+<h3>Problem 1<a class="headerlink" href="#problem-1" title="Permalink to this headline">¶</a></h3>
+<p>Consider the heat exchanger design of a finned-tube, cross-flow heat exchanger with a gas-side overall heat transfer coefficient and area of 100 W/m2.K and 40 m2, respectively. The water flow rate and inlet temperature remain at 1 kg/s and
+35deg C. However, a change in operating conditions for the hot gas generator causes the gases to now enter the heat exchanger with a flow rate of 1.5 kg/s and a temperature of 250 deg C. What is the effectiveness of this heat exchanger?  Assume specific heat of gas = 1000 J/kg.K, and water = 4197 J/kg.K</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Define variables</span>
+<span class="c1"># Hot stream</span>
+<span class="n">Thi</span> <span class="o">=</span> <span class="mi">250</span>  <span class="c1"># deg C</span>
+<span class="n">mfh</span> <span class="o">=</span> <span class="mf">1.5</span>  <span class="c1"># kg/s</span>
+<span class="n">cph</span> <span class="o">=</span> <span class="mi">1000</span> <span class="c1"># J/kg.K</span>
+<span class="c1"># Cold stream</span>
+<span class="n">Tci</span> <span class="o">=</span> <span class="mi">35</span>
+<span class="n">mfc</span> <span class="o">=</span> <span class="mi">1</span>  <span class="c1"># kg/s</span>
+<span class="n">cpc</span> <span class="o">=</span> <span class="mi">4197</span> <span class="c1">#J/kg.K.</span>
+
+<span class="c1"># Heat exchanger</span>
+<span class="n">U</span> <span class="o">=</span> <span class="mi">100</span> <span class="c1"># W/m2.K</span>
+<span class="n">A</span> <span class="o">=</span> <span class="mi">40</span> <span class="c1"># m2</span>
+<span class="n">Cmin</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">amin</span><span class="p">([</span><span class="n">mfh</span><span class="o">*</span><span class="n">cph</span><span class="p">,</span> <span class="n">mfc</span><span class="o">*</span><span class="n">cpc</span><span class="p">])</span>
+<span class="n">Cmax</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">amax</span><span class="p">([</span><span class="n">mfh</span><span class="o">*</span><span class="n">cph</span><span class="p">,</span> <span class="n">mfc</span><span class="o">*</span><span class="n">cpc</span><span class="p">])</span>
+
+<span class="n">NTU</span> <span class="o">=</span> <span class="n">U</span><span class="o">*</span><span class="n">A</span><span class="o">/</span><span class="n">Cmin</span>  <span class="c1"># Eqn 10</span>
+
+<span class="c1"># Function to calculate effectiveness using effectivenesss-NTU method</span>
+<span class="k">def</span> <span class="nf">epsilon_crossflow</span> <span class="p">(</span><span class="n">Cmin</span><span class="p">,</span> <span class="n">Cmax</span><span class="p">,</span> <span class="n">NTU</span><span class="p">):</span>
+    <span class="n">Cr</span> <span class="o">=</span> <span class="n">Cmin</span><span class="o">/</span><span class="n">Cmax</span>
+    <span class="n">exp1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="n">Cr</span><span class="o">*</span><span class="n">NTU</span><span class="o">**</span><span class="mf">0.78</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span>
+    <span class="n">exp2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="n">Cr</span><span class="o">*</span><span class="n">NTU</span><span class="o">**</span><span class="mf">0.22</span><span class="o">*</span><span class="n">exp1</span><span class="p">)</span>
+    <span class="n">epsilon</span> <span class="o">=</span> <span class="mi">1</span><span class="o">-</span><span class="n">exp2</span>
+    <span class="k">return</span> <span class="n">epsilon</span> 
+
+
+<span class="n">eps</span> <span class="o">=</span> <span class="n">epsilon_crossflow</span><span class="p">(</span><span class="n">Cmin</span><span class="p">,</span> <span class="n">Cmax</span><span class="p">,</span> <span class="n">NTU</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Effectiveness of heat exchanger = </span><span class="si">%1.2f</span><span class="s2">&quot;</span> <span class="o">%</span><span class="k">eps</span>)
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Effectiveness of heat exchanger = 0.84
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="check-your-work">
+<h3>Check Your Work<a class="headerlink" href="#check-your-work" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="problem-2">
+<h4>Problem 2<a class="headerlink" href="#problem-2" title="Permalink to this headline">¶</a></h4>
+<p>In the above example,</p>
+<p>a. What is the rate of heat transfer,<span class="math notranslate nohighlight">\(q\)</span>, by the exchanger?</p>
+<p>b. what are the gas (<span class="math notranslate nohighlight">\(T_{h,o}\)</span>) and water outlet temperatures (<span class="math notranslate nohighlight">\(T_{c,o}\)</span>)?</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## # enter your work here - Uncomment the following lines of code and make necessary changes</span>
+
+<span class="c1"># def qmax (Cmin, Thi,Tci):</span>
+<span class="c1">#     qmax = </span>
+<span class="c1">#     return qmax </span>
+
+<span class="c1"># qmax = qmax (Cmin, Thi,Tci)</span>
+
+<span class="c1"># q =   # Hint :use Eqn 8</span>
+
+<span class="c1"># Hint :use Eqn 6 and 7</span>
+<span class="c1"># Tho = </span>
+<span class="c1"># Tco = </span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Total heat transfer from hot to cold fluid = </span><span class="si">%1.3f</span><span class="s2"> kW&quot;</span> <span class="o">%</span><span class="p">(</span><span class="n">q</span><span class="o">/</span><span class="mi">1000</span><span class="p">))</span>
+<span class="c1">#p.check_p02a(q/1000)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Gas outlet temprature = </span><span class="si">%1.3f</span><span class="s2">&quot;</span> <span class="o">%</span><span class="k">Tho</span>)
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Water outlet temprature = </span><span class="si">%1.3f</span><span class="s2">&quot;</span> <span class="o">%</span><span class="k">Tco</span>)
+
+<span class="c1">#p.check_p02b(Tho, Tco)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">&lt;</span><span class="n">ipython</span><span class="o">-</span><span class="nb">input</span><span class="o">-</span><span class="mi">3</span><span class="o">-</span><span class="mi">36171529</span><span class="n">d6f0</span><span class="o">&gt;</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">     </span><span class="mi">13</span> <span class="c1"># Tco =</span>
+<span class="g g-Whitespace">     </span><span class="mi">14</span> 
+<span class="ne">---&gt; </span><span class="mi">15</span> <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Total heat transfer from hot to cold fluid = </span><span class="si">%1.3f</span><span class="s2"> kW&quot;</span> <span class="o">%</span><span class="p">(</span><span class="n">q</span><span class="o">/</span><span class="mi">1000</span><span class="p">))</span>
+<span class="g g-Whitespace">     </span><span class="mi">16</span> <span class="c1">#p.check_p02a(q/1000)</span>
+<span class="g g-Whitespace">     </span><span class="mi">17</span> 
+
+<span class="ne">NameError</span>: name &#39;q&#39; is not defined
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="problem-3">
+<h4>Problem 3<a class="headerlink" href="#problem-3" title="Permalink to this headline">¶</a></h4>
+<p>For the test 1 of the experiment, hot water enters the cross flow heat exchanger at 1.5 litres/min and 330K, and leaves at 317K.The water is cooled by air generated by a fan and entering the heat exchanger at 297K in cross-stream direction. Fan is operating at maximum speed of 600 m3/h What is the experimental value effectiveness for this heat exchanger?</p>
+<p>Assume specific heat of air = 1000 J/kg.K, and water = 4197 J/kg.K
+Density of water = 1000 kg/m3, Density of air = 1.2 kg/m3</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## # enter your work here - Uncomment the following lines of code and make necessary changes</span>
+
+<span class="c1"># # Define variables</span>
+<span class="c1"># # Hot stream</span>
+<span class="c1"># Thi = 330# K</span>
+<span class="c1"># Tho = 317</span>
+<span class="c1"># rhoh = 1000 #kg/m3</span>
+<span class="c1"># vfh = 1.5 #LPM</span>
+<span class="c1"># mfh = vfh/1000/60*rhoh #kg/s</span>
+<span class="c1"># cph = 4197 #J/kg.K</span>
+
+<span class="c1"># # Cold stream</span>
+<span class="c1"># Tci = 297</span>
+<span class="c1"># vfc = 600/3600 # m3/s</span>
+<span class="c1"># rhoc= 1.2</span>
+<span class="c1"># mfc = vfc*rhoc</span>
+<span class="c1"># cpc = 1000 </span>
+
+<span class="c1"># Cmin = np.amin([mfh*cph, mfc*cpc])</span>
+
+<span class="c1"># def qmax (Cmin, Thi,Tci):</span>
+<span class="c1">#     qmax = Cmin*(Thi-Tci)</span>
+<span class="c1">#     return qmax </span>
+
+<span class="c1"># qmax = qmax (Cmin, Thi,Tci)</span>
+
+<span class="c1"># q = np.abs(mfh*cph*(Tho-Thi))</span>
+<span class="c1"># eps = q/qmax</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Effectiveness of heat exchanger = </span><span class="si">%1.2f</span><span class="s2">&quot;</span> <span class="o">%</span><span class="k">eps</span>)
+
+<span class="n">p</span><span class="o">.</span><span class="n">check_p03</span><span class="p">(</span><span class="n">eps</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="procedure">
+<h2>Procedure<a class="headerlink" href="#procedure" title="Permalink to this headline">¶</a></h2>
+<p>The procedure and details of the experiment are included in a lab-handout [2].</p>
+<p><a class="reference external" href="https://drive.google.com/file/d/1Wdr-sx0VDOWYGsOaiwb5VQlbp-VZfcid/view?usp=sharing">ME3264_Lab_4_Cross-flow_Heat_Exchanger.pdf</a></p>
+<p>The lab procedure is demonstrated here</p>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">YouTubeVideo</span>
+<span class="n">vid</span> <span class="o">=</span> <span class="n">YouTubeVideo</span><span class="p">(</span><span class="s2">&quot;iEBjXRVPecY&quot;</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">vid</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<iframe
+    width="400"
+    height="300"
+    src="https://www.youtube.com/embed/iEBjXRVPecY"
+    frameborder="0"
+    allowfullscreen
+></iframe>
+</div></div>
+</div>
+</div>
+<div class="section" id="notes-on-error-propagation-and-uncertainties">
+<h2>Notes on error propagation and uncertainties<a class="headerlink" href="#notes-on-error-propagation-and-uncertainties" title="Permalink to this headline">¶</a></h2>
+<p>For this lab, you are required to perform error propagation for experimental value of effectiveness.</p>
+<p>The theory of error analysis gives a general formula for the uncertainty when a result is found by a calculation from a collection of measurements [4],. The formula is based on the idea of a first-order Taylor series expansion of functions of many variables. For a well behaved function <span class="math notranslate nohighlight">\(f(x,y,z,...)\)</span> of the completely independent physical variables <span class="math notranslate nohighlight">\(x,y,z,...\)</span> which have uncertainties <span class="math notranslate nohighlight">\(,\sigma_x,\sigma_y,\sigma_z,...\)</span> then the uncertainty in the value of the result <span class="math notranslate nohighlight">\(\sigma_f\)</span> is given by the formula:</p>
+<p><span class="math notranslate nohighlight">\(\sigma_f^2 = (\frac{\partial{f}}{\partial x})^2\sigma_x^2 + (\frac{\partial{f}}{\partial y})^2\sigma_y^2 + (\frac{\partial{f}}{\partial z})^2\sigma_z^2\)</span></p>
+<p>For more details on error propagation refer to <a class="reference external" href="https://cooperrc.github.io/applied_measurements/lab_01/ME3264_Lab-01.html#lab-1-heat-engine">ME 3264- Lab 1 - Heat Engine Notebook </a></p>
+</div>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>T.L. Bergman, A.S. Lavine, F.P. Incropera, D.P. Dewitt, Fundamentals of Heat and Mass Transfer, 7th ed., Wiley, Hoboken (2011), Chapter 11</p></li>
+<li><p><a class="reference external" href="https://drive.google.com/file/d/1Wdr-sx0VDOWYGsOaiwb5VQlbp-VZfcid/view?usp=sharing">ME3264_Lab_4_Cross-flow_Heat_Exchanger.pdf</a></p></li>
+<li><p><a class="reference external" href="https://drive.google.com/file/d/1wuDUqetR2zE9jw9eXE4HbXFYLHSpJFVm/view?usp=sharing">Supplemental Sections Chapter 11S.1</a></p></li>
+<li><p><a class="reference external" href="https://cooperrc.github.io/applied_measurements/lab_01/ME3264_Lab-01.html#lab-1-heat-engine">ME 3264- Lab 1 - Heat Engine Notebook </a></p></li>
+</ol>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./lab_04"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="README.html" title="previous page">ME3264-Lab_04</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Jupyter Book community<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>
