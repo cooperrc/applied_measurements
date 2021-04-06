@@ -11,3 +11,9 @@
 - file: lab_03/README
   sections:
     - file: lab_03/ME3264_Lab-03
+- file: lab_04/README
+  sections:
+    - file: lab_04/ME3264_Lab-04
+- file: lab_05/README
+  sections:
+    - file: lab_05/ME3264_Lab-05
